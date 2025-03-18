@@ -1,0 +1,79 @@
+
+.main {
+    padding: 0 120px;
+}
+
+.photo {
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.photo-gallery {
+    position: relative;
+}
+.photo__work{
+    filter: brightness(40%);
+}
+.photo-text {
+    position: absolute;
+    top: 45%;
+    right: 40%;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    color: #fff;
+}
+
+.headline {
+    margin-top: 120px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 47px;
+    margin-bottom: 40px;
+}
+
+.main__projects {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-self: center;
+    gap: 24px;
+}
+
+.project {
+    position: relative;
+}
+
+.projects__img {
+    max-width: 100%;
+    border-radius: 10px;
+    filter: brightness(80%)
+}
+
+.projects__text {
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+}
+
+.main__about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    gap: 80px;
+}
+
+.img__about {
+    margin-left: -120px;
+    max-height: 440px;
+}
+
+.about__text {
+    max-width: 970px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
